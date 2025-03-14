@@ -36,7 +36,7 @@
     background-color: red;
   }
   
-  .contact-me {
+  .contact {
     grid-column-start: 4;
     grid-row-start: 4;
     background-color: orange;
