@@ -17,8 +17,13 @@
     const date = new Date();
     let time = date.getTime();
     let nr=time%artShow;
+    var art=artshow[nr];
     window.addEventListener("load", (event) => {
       var frame=window.getElementById("here");
+      frame.src="https://amanda-cederlof.github.io/images/"+art;
+      
 });
+    function toArt(art)=>{
+    }
   </script>
 </html>
