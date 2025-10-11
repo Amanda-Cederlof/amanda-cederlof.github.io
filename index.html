@@ -4,26 +4,27 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body class="main-container">
-      <div class="title">
-        Amanda Cederlöf
-      </div>
-      <div id="here" class="art-block">2</div>
-      <div class="gallery">3</div>
-      <div class="commissions">4</div>
-      <div class="contact">5</div>
+    <div class="title">Amanda Cederlöf</div>
+    <div id="here" class="art-block">2</div>
+    <div class="gallery">3</div>
+    <div class="commissions">4</div>
+    <div class="contact">5</div>
   </body>
   <script>
-    var artShow=["image1.jpg", "image2.jpg","image3.jpg"]
-    const date = new Date();
-    let time = date.getTime();
-    let nr=time%artShow;
-    var art=artshow[nr];
-    window.addEventListener("load", (event) => {
-      var frame=window.getElementById("here");
-      frame.src="https://amanda-cederlof.github.io/images/"+art;
-      
-});
-    function toArt(art)=>{
-    }
+
+/*initiate all projects*/
+const pieceA=
+const projects=[]; 
+
+        var artShow=["image1.jpg", "image2.jpg","image3.jpg"]
+        const date = new Date();
+        let time = date.getTime();
+        let nr=time%artShow;
+        var art=artshow[nr];
+        window.addEventListener("load", (event) => {
+          var frame=window.getElementById("here");
+          frame.src="https://amanda-cederlof.github.io/images/"+art;});
+        function toArt(art)=>{
+        }
   </script>
 </html>
