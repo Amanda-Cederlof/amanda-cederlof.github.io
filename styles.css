@@ -8,6 +8,8 @@
     grid-template-rows: repeat(5, 1fr);
     gap: 1rem;
     position: fixed;
+    background-image: url(./FRIDGE.png);
+    background-repeat: none;
   }
     
   .title {
